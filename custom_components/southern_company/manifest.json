@@ -1,0 +1,10 @@
+{
+  "domain": "southern_company",
+  "name": "Southern Company",
+  "documentation": "https://github.com/ryanjohnsontv/ha-southern-company",
+  "dependencies": [],
+  "codeowners": ["@ryanjohnsontv"],
+  "requirements": ["requests"],
+  "version": "v0.0.1",
+  "config_flow": true
+}
