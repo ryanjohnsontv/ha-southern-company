@@ -1,0 +1,23 @@
+{
+    "title": "Southern Company",
+    "config": {
+        "step": {
+            "init": {
+                "title": "Enter the log-in details of your Southern Company account.",
+                "description": "This will add sensors to get energy usage data from your Southern Company account.\n\n {error_info} ",
+                "data": {
+                     "username": "Username used to login to your Southern Company account",
+                     "password": "Password used to login to your Southern Company account",
+                     "account": "Specific account number you're tracking"
+                }
+            },
+           "confirm": {
+                "description": "This sensor uses unofficial API to get energy usage data from TAURON eLicznik. Do you want to continue?\n",
+                "title": "Southern Company sensors"
+           }
+        },
+        "error": {
+            "server_no_connection": "Cannot connect to Southern Company account."
+        }
+    }
+}
